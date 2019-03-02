@@ -2,6 +2,7 @@
   "name": "google-charts",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ishibashi-futos.github.io/google-charts/",
   "dependencies": {
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
@@ -12,9 +13,12 @@
     "start": "react-scripts-ts start",
     "build": "react-scripts-ts build",
     "test": "react-scripts-ts test --env=jsdom",
-    "eject": "react-scripts-ts eject"
+    "eject": "react-scripts-ts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
+    "gh-pages": "^2.0.1",
     "@types/jest": "^24.0.9",
     "@types/node": "^11.9.5",
     "@types/react": "^16.8.5",
