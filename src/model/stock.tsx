@@ -7,4 +7,6 @@ export default interface IStock {
   average: number;
   volume: number;
   notional: number;
+  open: number;
+  close: number;
 }

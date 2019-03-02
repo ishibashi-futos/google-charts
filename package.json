@@ -4,7 +4,9 @@
   "private": true,
   "homepage": "https://ishibashi-futos.github.io/google-charts/",
   "dependencies": {
+    "bootstrap": "^4.3.1",
     "react": "^16.8.3",
+    "react-bootstrap": "^1.0.0-beta.5",
     "react-dom": "^16.8.3",
     "react-google-charts": "^3.0.10",
     "react-scripts-ts": "3.1.0"
